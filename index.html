@@ -1,141 +1,301 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Seraffin Traders - shop services, college projects, online applications and customer support in Palliyadi, Kanyakumari District.">
-  <title>Seraffin Traders | Abish</title>
-  <style>
-    :root { --navy:#10233f; --blue:#1769aa; --gold:#f5b942; --pale:#f3f7fc; --ink:#1d2939; --muted:#667085; }
-    * { box-sizing:border-box; }
-    html { scroll-behavior:smooth; }
-    body { margin:0; font-family:Arial,Helvetica,sans-serif; color:var(--ink); line-height:1.6; background:#fff; }
-    a { color:inherit; }
-    .topbar { background:var(--navy); color:white; padding:9px 5%; font-size:14px; display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; }
-    header { background:white; position:sticky; top:0; z-index:10; box-shadow:0 2px 12px #10233f12; }
-    .nav { max-width:1150px; margin:auto; padding:15px 22px; display:flex; align-items:center; justify-content:space-between; gap:20px; }
-    .brand { font-size:22px; font-weight:800; color:var(--navy); letter-spacing:.3px; }
-    .brand span { color:var(--blue); }
-    nav { display:flex; flex-wrap:wrap; gap:18px; }
-    nav a { text-decoration:none; font-weight:700; font-size:14px; }
-    nav a:hover { color:var(--blue); }
-    .hero { background:linear-gradient(120deg,#10233f 0%,#1769aa 100%); color:white; padding:78px 22px 74px; }
-    .hero-inner { max-width:1100px; margin:auto; display:grid; grid-template-columns:1.4fr .8fr; align-items:center; gap:35px; }
-    .eyebrow { color:#ffe2a0; font-weight:700; text-transform:uppercase; letter-spacing:2px; font-size:12px; }
-    h1 { font-size:clamp(36px,5vw,58px); line-height:1.1; margin:12px 0 18px; }
-    .hero p { color:#e4edf8; font-size:18px; max-width:650px; }
-    .actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:25px; }
-    .btn { display:inline-block; border-radius:9px; padding:12px 18px; text-decoration:none; font-weight:800; border:2px solid transparent; }
-    .btn.gold { background:var(--gold); color:#172b46; }
-    .btn.outline { border-color:#ffffff99; color:white; }
-    .hero-card { background:white; color:var(--ink); border-radius:18px; padding:26px; box-shadow:0 15px 45px #0002; }
-    .hero-card h2 { margin:0 0 8px; color:var(--navy); }
-    .hero-card p { color:var(--muted); font-size:15px; margin:6px 0; }
-    section { padding:65px 22px; }
-    .container { max-width:1100px; margin:auto; }
-    .section-title { text-align:center; margin:0 0 12px; color:var(--navy); font-size:clamp(27px,3vw,36px); }
-    .section-lead { text-align:center; max-width:720px; margin:0 auto 32px; color:var(--muted); }
-    .services { background:var(--pale); }
-    .cards { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
-    .card { background:white; border:1px solid #e4eaf2; border-radius:14px; padding:23px; box-shadow:0 5px 18px #10233f08; }
-    .icon { width:43px; height:43px; border-radius:12px; background:#e8f2fc; display:grid; place-items:center; font-size:23px; margin-bottom:13px; }
-    .card h3 { margin:0 0 8px; color:var(--navy); font-size:19px; }
-    .card p { margin:0; color:var(--muted); font-size:15px; }
-    .project-box { background:var(--navy); color:white; border-radius:18px; padding:30px; display:grid; grid-template-columns:1fr 1fr; gap:25px; align-items:center; }
-    .project-box h3 { font-size:27px; margin:0 0 10px; }
-    .project-box p { color:#dbe6f4; }
-    .tags { display:flex; flex-wrap:wrap; gap:9px; margin-top:18px; }
-    .tag { background:#ffffff18; border:1px solid #ffffff40; border-radius:20px; padding:7px 13px; font-weight:700; }
-    .hours { background:var(--pale); }
-    .hours-grid { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
-    .hours-card { background:white; border-radius:14px; padding:24px; border:1px solid #e4eaf2; }
-    .hours-card p { margin:8px 0; }
-    .contact-grid { display:grid; grid-template-columns:1fr 1fr; gap:25px; }
-    .contact-card { border:1px solid #e4eaf2; border-radius:14px; padding:25px; }
-    .contact-card h3 { color:var(--navy); margin-top:0; }
-    .contact-card a { color:var(--blue); font-weight:700; }
-    .contact-actions { display:flex; flex-wrap:wrap; gap:10px; margin-top:16px; }
-    footer { background:#0a1729; color:#dce5f1; padding:25px 22px; text-align:center; font-size:14px; }
-    footer p { margin:4px; }
-    @media(max-width:800px) { .hero-inner,.project-box,.contact-grid,.hours-grid { grid-template-columns:1fr; } .cards { grid-template-columns:repeat(2,1fr); } .nav { align-items:flex-start; flex-direction:column; } }
-    @media(max-width:520px) { .cards { grid-template-columns:1fr; } .hero { padding-top:50px; } nav { gap:12px; } .brand { font-size:20px; } }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seraffin Traders | e-Sevai, Xerox, Projects, Insurance, Money Transfer & Courier – Palliyadi</title>
+<meta name="description" content="Seraffin Traders, Murungavilai Junction, Palliyadi – e-Sevai services, print & xerox, ME/BE projects, vehicle insurance, money transfer and courier services. Call 9787301258.">
+<meta name="theme-color" content="#0b1020">
+<meta property="og:title" content="Seraffin Traders – Your One-Stop Service Shop">
+<meta property="og:description" content="e-Sevai, Print/Xerox, Projects, Vehicle Insurance, Money Transfer & Courier at Murungavilai Junction, Palliyadi.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%236c5ce7'/><text x='50' y='68' font-size='58' text-anchor='middle' fill='white' font-family='Arial' font-weight='700'>S</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Seraffin Traders",
+  "telephone": "+91-9787301258",
+  "email": "seraffintraders@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "26/1/5, Murungavilai Junction, Karungal-Marthandam Road, Palliyadi Post",
+    "postalCode": "629169",
+    "addressRegion": "Tamil Nadu",
+    "addressCountry": "IN"
+  },
+  "hasMap": "https://maps.app.goo.gl/KCKjfCPC27Yr4x2x5",
+  "openingHours": "Mo-Sa 09:00-20:00",
+  "makesOffer": ["e-Sevai", "Print & Xerox", "Projects", "ME/BE Projects", "Vehicle Insurance", "Money Transfer", "Courier Services"]
+}
+</script>
+<style>
+:root{
+  --bg:#0b1020; --bg2:#10172e; --card:rgba(255,255,255,.05); --border:rgba(255,255,255,.10);
+  --text:#e9ecf8; --muted:#a3abc7; --p1:#6c5ce7; --p2:#00d2ff; --p3:#ff6bcb;
+  --grad:linear-gradient(135deg,#6c5ce7 0%,#00d2ff 100%);
+  --radius:20px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.65;overflow-x:hidden}
+h1,h2,h3,.brand{font-family:Outfit,Inter,sans-serif}
+a{color:inherit;text-decoration:none}
+.container{width:min(1140px,92%);margin-inline:auto}
+section{padding:96px 0;position:relative}
+
+/* background glow blobs */
+.blob{position:fixed;border-radius:50%;filter:blur(110px);opacity:.35;z-index:-1;pointer-events:none}
+.b1{width:480px;height:480px;background:#6c5ce7;top:-120px;left:-120px}
+.b2{width:420px;height:420px;background:#00d2ff;top:35%;right:-160px;opacity:.22}
+.b3{width:380px;height:380px;background:#ff6bcb;bottom:-120px;left:20%;opacity:.18}
+
+/* nav */
+header{position:fixed;inset:0 0 auto 0;z-index:50;transition:.3s}
+header.scrolled{background:rgba(11,16,32,.8);backdrop-filter:blur(14px);border-bottom:1px solid var(--border)}
+nav{display:flex;align-items:center;justify-content:space-between;height:72px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:1.3rem;letter-spacing:.2px}
+.logo{width:38px;height:38px;border-radius:12px;background:var(--grad);display:grid;place-items:center;font-weight:800;color:#fff;box-shadow:0 8px 24px rgba(108,92,231,.5)}
+.links{display:flex;gap:30px;align-items:center}
+.links a{color:var(--muted);font-weight:500;font-size:.95rem;transition:.2s}
+.links a:hover{color:#fff}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:999px;font-weight:600;font-size:.97rem;border:1px solid transparent;cursor:pointer;transition:.25s}
+.btn-primary{background:var(--grad);color:#fff;box-shadow:0 10px 30px rgba(108,92,231,.45)}
+.btn-primary:hover{transform:translateY(-3px);box-shadow:0 16px 40px rgba(0,210,255,.4)}
+.btn-ghost{border-color:var(--border);background:var(--card);color:#fff;backdrop-filter:blur(8px)}
+.btn-ghost:hover{background:rgba(255,255,255,.12);transform:translateY(-3px)}
+.menu-btn{display:none;background:none;border:0;color:#fff;font-size:1.7rem;cursor:pointer}
+
+/* hero */
+.hero{min-height:100vh;display:flex;align-items:center;padding-top:110px}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center}
+.tag{display:inline-flex;gap:8px;align-items:center;padding:8px 16px;border-radius:999px;background:var(--card);border:1px solid var(--border);color:var(--muted);font-size:.85rem;margin-bottom:22px}
+.dot{width:8px;height:8px;border-radius:50%;background:#2ee59d;box-shadow:0 0 0 0 rgba(46,229,157,.7);animation:pulse 2s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 10px rgba(46,229,157,0)}100%{box-shadow:0 0 0 0 rgba(46,229,157,0)}}
+h1{font-size:clamp(2.5rem,6vw,4.5rem);line-height:1.08;font-weight:800;letter-spacing:-1.5px}
+.grad-text{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p.lead{margin:22px 0 34px;color:var(--muted);font-size:1.15rem;max-width:560px}
+.cta{display:flex;flex-wrap:wrap;gap:14px}
+.stats{display:flex;gap:36px;margin-top:46px;flex-wrap:wrap}
+.stats b{font-family:Outfit;font-size:1.9rem;display:block}
+.stats span{color:var(--muted);font-size:.88rem}
+
+.hero-card{position:relative;background:linear-gradient(160deg,rgba(255,255,255,.09),rgba(255,255,255,.03));border:1px solid var(--border);border-radius:28px;padding:30px;backdrop-filter:blur(18px);box-shadow:0 30px 80px rgba(0,0,0,.45);animation:float 6s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-14px)}}
+.hero-card h3{font-size:1.2rem;margin-bottom:18px}
+.mini{display:flex;align-items:center;gap:14px;padding:13px 14px;border-radius:14px;background:rgba(255,255,255,.05);margin-bottom:10px;transition:.25s}
+.mini:hover{background:rgba(255,255,255,.1);transform:translateX(6px)}
+.mini i{font-style:normal;font-size:1.4rem;width:44px;height:44px;border-radius:12px;display:grid;place-items:center;background:var(--grad)}
+.mini small{color:var(--muted);display:block;font-size:.8rem}
+
+/* section heading */
+.eyebrow{color:var(--p2);font-weight:600;letter-spacing:2px;font-size:.8rem;text-transform:uppercase}
+.title{font-size:clamp(2rem,4vw,3rem);font-weight:800;margin:10px 0 14px;letter-spacing:-.8px}
+.sub{color:var(--muted);max-width:620px}
+.center{text-align:center}.center .sub{margin-inline:auto}
+
+/* services */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px;margin-top:54px}
+.card{position:relative;background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:32px 28px;transition:.35s;overflow:hidden}
+.card::before{content:"";position:absolute;inset:0;background:var(--grad);opacity:0;transition:.35s;z-index:0}
+.card>*{position:relative;z-index:1}
+.card:hover{transform:translateY(-8px);border-color:transparent;box-shadow:0 24px 60px rgba(108,92,231,.35)}
+.card:hover::before{opacity:.16}
+.ico{width:58px;height:58px;border-radius:16px;display:grid;place-items:center;font-size:1.7rem;background:var(--grad);margin-bottom:20px;box-shadow:0 10px 26px rgba(108,92,231,.4)}
+.card h3{font-size:1.25rem;margin-bottom:8px}
+.card p{color:var(--muted);font-size:.95rem}
+.card ul{list-style:none;margin-top:14px}
+.card li{color:var(--muted);font-size:.9rem;padding-left:22px;position:relative;margin:5px 0}
+.card li::before{content:"✓";position:absolute;left:0;color:#2ee59d;font-weight:700}
+
+/* why */
+.why{background:linear-gradient(180deg,transparent,rgba(255,255,255,.025),transparent)}
+.why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px;margin-top:50px}
+.why-item{text-align:center;padding:26px 18px}
+.why-item .n{width:64px;height:64px;margin:0 auto 16px;border-radius:50%;display:grid;place-items:center;font-size:1.7rem;border:1px solid var(--border);background:var(--card)}
+.why-item h3{margin-bottom:6px;font-size:1.1rem}
+.why-item p{color:var(--muted);font-size:.92rem}
+
+/* contact */
+.contact-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:34px;margin-top:50px}
+.info{display:grid;gap:16px;align-content:start}
+.info a,.info div.row{display:flex;gap:16px;align-items:center;padding:20px 22px;background:var(--card);border:1px solid var(--border);border-radius:var(--radius);transition:.3s}
+.info a:hover{border-color:var(--p2);transform:translateX(6px)}
+.info .ico{margin:0;width:50px;height:50px;font-size:1.3rem;flex-shrink:0}
+.info small{color:var(--muted);display:block;font-size:.8rem}
+.info b{font-weight:600;word-break:break-word}
+.map{border-radius:var(--radius);overflow:hidden;border:1px solid var(--border);min-height:400px;box-shadow:0 20px 60px rgba(0,0,0,.4)}
+.map iframe{width:100%;height:100%;min-height:400px;border:0;filter:invert(.9) hue-rotate(180deg) saturate(.8)}
+
+.banner{margin-top:70px;padding:54px 30px;border-radius:30px;text-align:center;background:var(--grad);box-shadow:0 30px 80px rgba(108,92,231,.4)}
+.banner h2{font-size:clamp(1.7rem,3.4vw,2.5rem);margin-bottom:10px}
+.banner p{opacity:.92;margin-bottom:26px}
+.banner .btn{background:#fff;color:#2b2470}
+.banner .btn:hover{transform:translateY(-3px)}
+
+footer{border-top:1px solid var(--border);padding:34px 0;color:var(--muted);font-size:.9rem}
+.foot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px;align-items:center}
+
+/* floating whatsapp / call */
+.float{position:fixed;right:20px;bottom:20px;display:flex;flex-direction:column;gap:12px;z-index:60}
+.float a{width:56px;height:56px;border-radius:50%;display:grid;place-items:center;font-size:1.5rem;box-shadow:0 10px 30px rgba(0,0,0,.45);transition:.25s}
+.float a:hover{transform:scale(1.12)}
+.wa{background:#25d366}.call{background:var(--grad)}
+
+/* reveal */
+.reveal{opacity:0;transform:translateY(34px);transition:.8s cubic-bezier(.2,.7,.2,1)}
+.reveal.show{opacity:1;transform:none}
+
+@media(max-width:900px){
+  .hero-grid,.contact-grid{grid-template-columns:1fr}
+  .hero-card{animation:none}
+  .links{position:fixed;inset:72px 0 auto 0;flex-direction:column;background:rgba(11,16,32,.97);padding:26px 0;gap:22px;transform:translateY(-130%);transition:.35s;border-bottom:1px solid var(--border)}
+  .links.open{transform:none}
+  .menu-btn{display:block}
+  section{padding:72px 0}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+</style>
 </head>
 <body>
-  <div class="topbar"><span>📍 Palliyadi, Kanyakumari District</span><span>📞 9787301258</span></div>
-  <header>
-    <div class="nav">
-      <div class="brand">SERAFFIN <span>TRADERS</span></div>
-      <nav aria-label="Main navigation">
-        <a href="#home">Home</a><a href="#services">Services</a><a href="#projects">College Projects</a><a href="#hours">Opening Hours</a><a href="#contact">Contact</a>
-      </nav>
+<div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+
+<header id="hdr">
+  <div class="container">
+    <nav>
+      <a href="#home" class="brand"><span class="logo">S</span>Seraffin Traders</a>
+      <div class="links" id="links">
+        <a href="#services">Services</a>
+        <a href="#why">Why Us</a>
+        <a href="#contact">Contact</a>
+        <a href="tel:+919787301258" class="btn btn-primary">📞 Call Now</a>
+      </div>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">☰</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="container hero-grid">
+    <div class="reveal">
+      <div class="tag"><span class="dot"></span> Open for service • Palliyadi, Kanyakumari</div>
+      <h1>Your <span class="grad-text">one-stop</span> shop for everyday &amp; digital services</h1>
+      <p class="lead">From e-Sevai and printing to vehicle insurance, money transfer, courier and final-year projects — Seraffin Traders gets it done quickly, reliably and at fair prices.</p>
+      <div class="cta">
+        <a href="#services" class="btn btn-primary">Explore Services →</a>
+        <a href="https://wa.me/919787301258?text=Hello%20Seraffin%20Traders%2C%20I%20need%20help%20with%20a%20service." target="_blank" rel="noopener" class="btn btn-ghost">💬 WhatsApp Us</a>
+      </div>
+      <div class="stats">
+        <div><b>7+</b><span>Services under one roof</span></div>
+        <div><b>Fast</b><span>Same-day turnaround</span></div>
+        <div><b>100%</b><span>Trusted local service</span></div>
+      </div>
     </div>
-  </header>
-  <main>
-    <section class="hero" id="home">
-      <div class="hero-inner">
-        <div>
-          <div class="eyebrow">Your local service centre</div>
-          <h1>Welcome to<br>Seraffin Traders</h1>
-          <p>Helpful shop services, online application assistance and college project support — all in one place.</p>
-          <div class="actions"><a class="btn gold" href="https://wa.me/919787301258" target="_blank" rel="noopener">Chat on WhatsApp</a><a class="btn outline" href="tel:9787301258">Call 9787301258</a></div>
-        </div>
-        <div class="hero-card">
-          <h2>Shop Information</h2>
-          <p><strong>Owner:</strong> Abish</p>
-          <p><strong>Open:</strong> 9:00 AM – 8:00 PM</p>
-          <p><strong>Working days:</strong> Monday–Saturday</p>
-          <p><strong>Sunday:</strong> Hours may vary</p>
-          <p><strong>Address:</strong> 26/1/5, Murungavilai Junction, Karungal–Marthandam Road, Palliyadi Post, Kanyakumari District, Tamil Nadu – 629169.</p>
-        </div>
-      </div>
-    </section>
+    <aside class="hero-card reveal">
+      <h3>What we offer</h3>
+      <div class="mini"><i>🏛️</i><div>e-Sevai<small>Government online services</small></div></div>
+      <div class="mini"><i>🖨️</i><div>Print / Xerox<small>Sharp, quick &amp; affordable</small></div></div>
+      <div class="mini"><i>🎓</i><div>ME / BE Projects<small>Guidance &amp; project support</small></div></div>
+      <div class="mini"><i>🛵</i><div>Vehicle Insurance<small>Renew &amp; buy in minutes</small></div></div>
+    </aside>
+  </div>
+</section>
 
-    <section class="services" id="services">
-      <div class="container">
-        <h2 class="section-title">Our Services</h2>
-        <p class="section-lead">Visit or contact us to ask about the service you need. Availability and applicable fees may vary by service.</p>
-        <div class="cards">
-          <article class="card"><div class="icon">📝</div><h3>Online Applications</h3><p>Assistance with online forms and selected government service applications.</p></article>
-          <article class="card"><div class="icon">📄</div><h3>e-Sevai Assistance</h3><p>Guidance for eligible certificate and public-service application processes.</p></article>
-          <article class="card"><div class="icon">🏍️</div><h3>Bike & Car Insurance</h3><p>Help with enquiries and applications for two-wheeler and car insurance.</p></article>
-          <article class="card"><div class="icon">📱</div><h3>Airtel Services</h3><p>Ask us about available Airtel-related services at the shop.</p></article>
-          <article class="card"><div class="icon">💸</div><h3>Money Transfer</h3><p>Enquire about available money-transfer and banking-related services.</p></article>
-          <article class="card"><div class="icon">🎓</div><h3>College Projects</h3><p>Project assistance for eligible UG and PG courses, excluding Ph.D. projects.</p></article>
-        </div>
-      </div>
-    </section>
+<section id="services">
+  <div class="container">
+    <div class="center reveal">
+      <span class="eyebrow">Our Services</span>
+      <h2 class="title">Everything you need, <span class="grad-text">in one place</span></h2>
+      <p class="sub">Save time and travel — handle your documents, payments, parcels and projects at a single trusted counter.</p>
+    </div>
+    <div class="grid">
+      <article class="card reveal"><div class="ico">🏛️</div><h3>e-Sevai Services</h3><p>Government certificate and online application services made simple.</p>
+        <ul><li>Certificates &amp; applications</li><li>Aadhaar / PAN related help</li><li>Form filling &amp; online submission</li></ul></article>
+      <article class="card reveal"><div class="ico">🖨️</div><h3>Print &amp; Xerox</h3><p>High-quality black &amp; white and colour printing, photocopy and scanning.</p>
+        <ul><li>Photocopy &amp; scanning</li><li>Colour &amp; B/W prints</li><li>Bulk &amp; document printing</li></ul></article>
+      <article class="card reveal"><div class="ico">💡</div><h3>Projects</h3><p>School and college project preparation, documentation and printing.</p>
+        <ul><li>Report &amp; record preparation</li><li>PPT / document design</li><li>Binding &amp; final printouts</li></ul></article>
+      <article class="card reveal"><div class="ico">🎓</div><h3>ME / BE Projects</h3><p>Engineering project guidance with complete documentation support.</p>
+        <ul><li>Project ideas &amp; guidance</li><li>Report &amp; thesis formatting</li><li>Presentation support</li></ul></article>
+      <article class="card reveal"><div class="ico">🛵</div><h3>Vehicle Insurance</h3><p>Two-wheeler and four-wheeler insurance – new policies and quick renewals.</p>
+        <ul><li>New &amp; renewal policies</li><li>Hassle-free paperwork</li><li>Instant policy copy</li></ul></article>
+      <article class="card reveal"><div class="ico">💸</div><h3>Money Transfer</h3><p>Send money safely and instantly to any bank account.</p>
+        <ul><li>Quick bank transfers</li><li>Secure &amp; transparent</li><li>Instant confirmation</li></ul></article>
+      <article class="card reveal"><div class="ico">📦</div><h3>Courier Services</h3><p>Reliable parcel and document courier to destinations across India.</p>
+        <ul><li>Documents &amp; parcels</li><li>Safe packing</li><li>Tracking support</li></ul></article>
+    </div>
+  </div>
+</section>
 
-    <section id="projects">
-      <div class="container">
-        <div class="project-box">
-          <div><div class="eyebrow">Student support</div><h3>All College Projects Available</h3><p>Ask about college project availability for Arts & Science and Engineering courses.</p><div class="tags"><span class="tag">B.E.</span><span class="tag">M.E.</span><span class="tag">B.Sc.</span><span class="tag">M.Sc.</span><span class="tag">MCA</span><span class="tag">UG / PG</span></div></div>
-          <div><h3>Need project details?</h3><p>Contact the shop to discuss your course, topic requirements, and timeline. Ph.D. projects are not offered.</p><a class="btn gold" href="https://wa.me/919787301258?text=Hello%20Seraffin%20Traders%2C%20I%20want%20to%20enquire%20about%20college%20projects." target="_blank" rel="noopener">Enquire on WhatsApp</a></div>
-        </div>
-      </div>
-    </section>
+<section class="why" id="why">
+  <div class="container">
+    <div class="center reveal">
+      <span class="eyebrow">Why Seraffin Traders</span>
+      <h2 class="title">Service you can <span class="grad-text">rely on</span></h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-item reveal"><div class="n">⚡</div><h3>Quick Service</h3><p>Minimal waiting, fast processing, same-day results.</p></div>
+      <div class="why-item reveal"><div class="n">💰</div><h3>Fair Pricing</h3><p>Honest, transparent charges with no hidden costs.</p></div>
+      <div class="why-item reveal"><div class="n">🤝</div><h3>Friendly Support</h3><p>We guide you step by step with every application.</p></div>
+      <div class="why-item reveal"><div class="n">📍</div><h3>Easy Location</h3><p>Right at Murungavilai Junction – simple to reach.</p></div>
+    </div>
+  </div>
+</section>
 
-    <section class="hours" id="hours">
-      <div class="container">
-        <h2 class="section-title">Opening Hours</h2><p class="section-lead">Please contact us before visiting on Sunday, as timings can vary.</p>
-        <div class="hours-grid">
-          <div class="hours-card"><h3>Monday – Saturday</h3><p>🕘 <strong>9:00 AM – 8:00 PM</strong></p><p>Open all day during the listed hours.</p></div>
-          <div class="hours-card"><h3>Sunday</h3><p>🕘 <strong>Hours vary</strong></p><p>Call or WhatsApp to confirm availability.</p></div>
-        </div>
+<section id="contact">
+  <div class="container">
+    <div class="center reveal">
+      <span class="eyebrow">Get In Touch</span>
+      <h2 class="title">Visit us or <span class="grad-text">contact today</span></h2>
+      <p class="sub">Drop by the shop, give us a call, or message us — we're happy to help.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="info reveal">
+        <a href="tel:+919787301258"><span class="ico">📞</span><div><small>Phone</small><b>+91 97873 01258</b></div></a>
+        <a href="https://wa.me/919787301258" target="_blank" rel="noopener"><span class="ico">💬</span><div><small>WhatsApp</small><b>Chat with us</b></div></a>
+        <a href="mailto:seraffintraders@gmail.com"><span class="ico">✉️</span><div><small>Email</small><b>seraffintraders@gmail.com</b></div></a>
+        <a href="https://maps.app.goo.gl/KCKjfCPC27Yr4x2x5" target="_blank" rel="noopener"><span class="ico">📍</span><div><small>Address</small><b>26/1/5, Murungavilai Junction, Karungal–Marthandam Road, Palliyadi Post – 629169</b></div></a>
+        <div class="row"><span class="ico">🕘</span><div><small>Opening Hours</small><b>Mon – Sat: 9:00 AM – 8:00 PM</b><small>Sunday hours may vary – call to confirm</small></div></div>
       </div>
-    </section>
+      <div class="map reveal">
+        <iframe title="Seraffin Traders location" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=Murungavilai+Junction,+Palliyadi,+629169&output=embed"></iframe>
+      </div>
+    </div>
 
-    <section id="contact">
-      <div class="container">
-        <h2 class="section-title">Contact Us</h2><p class="section-lead">We’ll be happy to hear from you.</p>
-        <div class="contact-grid">
-          <div class="contact-card"><h3>Seraffin Traders</h3><p><strong>Owner:</strong> Abish</p><p><strong>Phone:</strong> <a href="tel:9787301258">9787301258</a></p><p><strong>WhatsApp:</strong> <a href="https://wa.me/919787301258" target="_blank" rel="noopener">Message us</a></p><p><strong>Address:</strong><br>26/1/5, Murungavilai Junction,<br>Karungal–Marthandam Road,<br>Palliyadi Post, Kanyakumari District,<br>Tamil Nadu – 629169.</p><div class="contact-actions"><a class="btn gold" style="color:#172b46" href="https://wa.me/919787301258" target="_blank" rel="noopener">WhatsApp</a><a class="btn" style="background:#e8f2fc;color:#10233f" href="tel:9787301258">Call Shop</a></div></div>
-          <div class="contact-card"><h3>Find Our Shop</h3><p>Open Google Maps and search for the shop address:</p><a href="https://www.google.com/maps/search/?api=1&query=26%2F1%2F5%2C%20Murungavilai%20Junction%2C%20Karungal-Marthandam%20Road%2C%20Palliyadi%2C%20Kanyakumari%20629169" target="_blank" rel="noopener">Open address in Google Maps ↗</a><p style="margin-top:20px;color:#667085;font-size:14px">This opens a Maps search for the supplied address. If you have the exact shop pin, replace this link with your direct Google Maps location link.</p></div>
-        </div>
-      </div>
-    </section>
-  </main>
-  <footer><p><strong>SERAFFIN TRADERS</strong> · Owner: Abish</p><p>© <span id="year"></span> Seraffin Traders. All rights reserved.</p></footer>
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+    <div class="banner reveal">
+      <h2>Need something done today?</h2>
+      <p>Call or WhatsApp us now — we'll get you sorted.</p>
+      <a href="tel:+919787301258" class="btn">📞 9787301258</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container foot">
+    <div>© <span id="yr"></span> Seraffin Traders. All rights reserved.</div>
+    <div>Murungavilai Junction, Palliyadi Post, 629169 · Owner: Abish</div>
+  </div>
+</footer>
+
+<div class="float">
+  <a class="wa" href="https://wa.me/919787301258" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+  <a class="call" href="tel:+919787301258" aria-label="Call">📞</a>
+</div>
+
+<script>
+document.getElementById('yr').textContent=new Date().getFullYear();
+const hdr=document.getElementById('hdr'),links=document.getElementById('links');
+addEventListener('scroll',()=>hdr.classList.toggle('scrolled',scrollY>20));
+document.getElementById('menuBtn').onclick=()=>links.classList.toggle('open');
+links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>links.classList.remove('open')));
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('show');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach((el,i)=>{el.style.transitionDelay=(i%4)*80+'ms';io.observe(el)});
+</script>
 </body>
 </html>
